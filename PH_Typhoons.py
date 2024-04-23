@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 import streamlit as st
 import tensorflow as tf
 import numpy as np
@@ -12,11 +6,6 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import time
-
-
-
-# In[6]:
-
 
 if "data_norm" not in st.session_state:
     st.session_state.data_norm = None
@@ -253,10 +242,3 @@ def app():
 
 if __name__ == '__main__':
     app()   
-
-
-# In[ ]:
-
-
-
-
